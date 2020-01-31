@@ -18,6 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
+    "cm": "npx git-cz",
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
@@ -31,5 +32,20 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jbastias/test-jbastias-lib-a.git"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
