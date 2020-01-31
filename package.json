@@ -1,6 +1,6 @@
 {
   "name": "test-jbastias-lib-a",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "> TODO: description",
   "author": "jbastias <jorgebastias@hotmail.com>",
   "homepage": "",
@@ -17,7 +17,8 @@
     "registry": "http://registry.npmjs.org/"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -26,5 +27,9 @@
     "cz-conventional-changelog": "^3.1.0",
     "husky": "^4.2.1",
     "semantic-release": "^17.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbastias/test-jbastias-lib-a.git"
   }
 }
