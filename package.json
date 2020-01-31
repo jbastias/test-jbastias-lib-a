@@ -1,0 +1,30 @@
+{
+  "name": "test-jbastias-lib-a",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jbastias <jorgebastias@hotmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/test-jbastias-lib-a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "husky": "^4.2.1",
+    "semantic-release": "^17.0.1"
+  }
+}
